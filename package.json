@@ -1,22 +1,50 @@
 {
-  "name": "koishi-plugin-loctts",
-  "description": "run local tts for LLM",
-  "version": "0.0.1",
+  "name": "koishi-plugin-locatts",
+  "version": "1.0.3",
+  "description": "本地TTS插件",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
     "lib",
     "dist"
   ],
-  "license": "MIT",
-  "scripts": {},
-  "keywords": [
-    "chatbot",
-    "koishi",
-    "plugin"
+  "contributors": [
+    "ReFleXAzusa <3751058834@qq.com>"
   ],
-  "devDependencies": {},
+  "license": "MIT",
+  "homepage": "https://github.com/ReFleXAzusa",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReFleXAzusa/KOISHI-LocTTS"
+  },
+  "keywords": [
+    "tts",
+    "koishi-plugin"
+  ],
   "peerDependencies": {
-    "koishi": "^4.18.7"
+    "koishi": "^4.18.9"
+  },
+  "devDependencies": {
+    "@koishijs/cli": "^4.10.10",
+    "koishi": "^4.18.9"
+  },
+  "scripts": {
+    "build": "koishi-build"
+  },
+  "dependencies": {
+    "axios": "^1.13.0"
+  },
+  "koishi": {
+    "description": {
+      "en": "Local TTS plugin with GPT-SOVITS integration",
+      "zh": "基于 GPT-SOVITS 的本地文本转语音插件"
+    },
+    "service": {
+      "required": [],
+      "optional": [],
+      "implements": []
+    },
+    "hidden": true,
+    "preview": false
   }
 }
