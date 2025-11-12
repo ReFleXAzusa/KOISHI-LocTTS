@@ -1,5 +1,5 @@
 # Koishi Plugin LocTTS
-
+1.1.0 +转所有插件输出为TTS By:唐晓啡(QQ:630320467)
 [![npm](https://img.shields.io/npm/v/koishi-plugin-locatts)](https://www.npmjs.com/package/koishi-plugin-locatts)
 [![GitHub](https://img.shields.io/github/license/ReFleXAzusa/KOISHI-LocTTS)](https://github.com/ReFleXAzusa/KOISHI-LocTTS/blob/main/LICENSE)
 [![Koishi](https://img.shields.io/badge/Koishi-v4.18.9-green)](https://koishi.chat)
